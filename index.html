@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="Images/Logo.png" alt="Spotify">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="songlist">
+            <h1>Play Your Mood :-</h1>
+            <div class="songItem">
+                <img src="Covers/cover trampoline.jpg" alt="1">
+                <span>Trampoline</span>
+                <span class="songlistplay"><span class="timestamp">05:34<img id="1" class="songItemPlay"src="Images/play-solid.svg"alt="play"></span></span>
+                 
+            </div>
+            <div class="songItem">
+                <img src="Covers/cover tokyodrift.jpg" alt="1">
+                <span>Tokyo Drift</span>
+                <span class="songlistplay"><span class="timestamp">04:30<img id="2" class="songItemPlay"src="Images/play-solid.svg"alt="play"></span></span>
+                 
+            </div>
+            <div class="songItem">
+                <img src="Covers/cover mood.jpg" alt="1">
+                <span>Mood</span>
+                <span class="songlistplay"><span class="timestamp">02:04<img id="3" class="songItemPlay"src="Images/play-solid.svg"alt="play"></span></span>
+                 
+            </div>
+            <div class="songItem">
+                <img src="Covers/cover godsplan.jpg" alt="1">
+                <span>God's Plan</span>
+                <span class="songlistplay"><span class="timestamp">02:39<img id="4" class="songItemPlay" src="Images/play-solid.svg"alt="play"></span></span>
+                 
+            </div>
+            <div class="songItem">
+                <img src="Covers/Cover.jpg" alt="1">
+                <span>Blinding Lights</span>
+                <span class="songlistplay"><span class="timestamp">03:01<img id="5" class="songItemPlay"src="Images/play-solid.svg"alt="play"></span></span>
+                 
+            </div>
+            <div class="songItem">
+                <img src="Covers/cover bestlife.jpg" alt="1">
+                <span>Best Life</span>
+                <span class="songlistplay"><span class="timestamp">04:34<img id="6" class="songItemPlay"src="Images/play-solid.svg"alt="play"></span></span>
+                 
+            </div>
+            <div class="songItem">
+                <img src="Covers/cover gangup.jpg" alt="1">
+                <span>Gang UP</span>
+                <span class="songlistplay"><span class="timestamp">02:12<img id="7" class="songItemPlay"src="Images/play-solid.svg"alt="play"></span></span>
+                 
+            </div>
+        </div>
+        <div class="songbanner"></div>
+    </div>
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <img id="previous" class="back" src="Images/backward-step-solid.svg"alt="backward">
+            <img class="play" src="Images/play-solid.svg" id="masterplay"alt="play">
+            <img id="next" class="front" src="Images/forward-step-solid.svg"alt="forward">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
